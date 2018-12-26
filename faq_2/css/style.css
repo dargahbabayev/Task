@@ -1,0 +1,101 @@
+
+.faq__box{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+  
+}
+.faq__box .faq__list{
+
+    padding: 0;
+}
+.faq__box .faq__list li{
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+}
+
+.faq__box .faq__list li a{
+    position: relative;
+    color: #777;
+    display: block;
+    padding: 15px 10px;
+}
+
+
+.faq__item  {
+    margin-top: 25px;
+}
+.faq__item .item__options{
+    margin: 15;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color: #444;
+    background-color: #fff;
+  
+}
+
+.faq__item .faq_subheadtext{
+    /* padding: .75rem 1.25rem; */
+}
+.faq__item .tittle {
+    font-size: 16px;
+    padding-top: 5px;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.faq__item .tittle::after{
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 2%;
+    font-weight: 900;
+    top: 34%;
+    color: red;
+
+}
+/* .faq__item .tittle:hover {
+    
+} */
+
+.faq__item .tittle h4 {
+    display: inline-block;
+    color: #333;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+
+
+.faq__item .content {
+    display: none;
+    padding: 30px;
+    line-height: 1.6!important;
+    border-top: 1px solid #ddd;
+}
+
+
+.active .content{
+
+display: block;
+
+}
+
+
+.active .tittle::after{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 2%;
+    top: 28%;
+    font-weight: 900;  
+    color: red;
+
+}
+
+

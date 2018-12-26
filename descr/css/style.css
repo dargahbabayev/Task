@@ -1,0 +1,29 @@
+.desc{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.desc__headtext, .desc__text, .desc_subheadtext{
+    color: #333;
+}
+.desc__headtext{
+    
+    font-size: 22px;
+    margin-top: 5px;
+    padding-top: 5px;
+    
+
+}
+.desc__text{
+    margin: 0 0 20px;
+    word-wrap: break-word;
+
+    
+}
+.desc_subheadtext{
+    line-height: 20px;
+    font-size: 18px;
+}
